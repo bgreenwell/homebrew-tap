@@ -14,8 +14,9 @@ brew tap bgreenwell/tap
 
 | Tool | Description | Install Command |
 | :--- | :--- | :--- |
-| **[xleak](https://github.com/bgreenwell/xleak)** | Prevents secrets leaks in git history. | `brew install xleak` |
-| **[future-tool]** | Description of your next tool. | `brew install future-tool` |
+| **[xleak](https://github.com/bgreenwell/xleak)** | A fast terminal Excel viewer with an interactive TUI. | `brew install xleak` |
+| **[doxx](https://github.com/bgreenwell/doxx)** | Expose the contents of .docx files without leaving your terminal. | `brew install doxx` |
+| **[lstr](https://github.com/bgreenwell/lstr)** | A fast, minimalist directory tree viewer, written in Rust. | `brew install lstr` |
 
 ## Quick start (all-in-One)
 
