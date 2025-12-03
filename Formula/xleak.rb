@@ -1,25 +1,25 @@
 class Xleak < Formula
   desc "A fast terminal Excel viewer with interactive TUI, search, formulas, and export capabilities"
   homepage "https://github.com/bgreenwell/xleak"
-  version "0.2.2"
+  version "0.2.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.2/xleak-aarch64-apple-darwin.tar.xz"
-      sha256 "d2e959e5d51f4b33d6b8fc824a9ef758a1481a6fa753d744a440c830d782737c"
+      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.3/xleak-aarch64-apple-darwin.tar.xz"
+      sha256 "55da6800018dc505ca87b33851b859f8d231cb730e857dda48415a18d34fd4e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.2/xleak-x86_64-apple-darwin.tar.xz"
-      sha256 "05f606fcf0df224fd87e7bcde4cd6bf24efc452668fa38c01a71ed60249eff96"
+      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.3/xleak-x86_64-apple-darwin.tar.xz"
+      sha256 "2b0268c73ac18912a5c21ae4cfdba58c14b60ffb2f6a769066eb899326987732"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.2/xleak-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b354a6a25f04696bdc6e4e996eeb89081fdd6ec9af35d7b42e08bd486007a3a6"
+      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.3/xleak-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f42c3f8f76ff31b422454f40c184ceb53b0433a53f6c893bc24ad8265f8fdf2d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.2/xleak-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7c07e2f8ad294c175623d11a98ab1b13239dfe481997ba920ddef56cc58d61f0"
+      url "https://github.com/bgreenwell/xleak/releases/download/v0.2.3/xleak-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b920e4b12a0464c21d46081063bcc4404eb733c335005c6d5618c350f73ab9af"
     end
   end
   license "MIT"
