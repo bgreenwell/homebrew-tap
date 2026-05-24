@@ -5,21 +5,21 @@ class Xleak < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/bgreenwell/xleak/releases/download/v0.2.6/xleak-aarch64-apple-darwin.tar.xz"
-      sha256 "c23c0fd2e87f5746f88992757a58006eccc051e49d05a9401dfcd8bedcce98f3"
+      sha256 "5b5a2c45b8c0a9e7b11e908ab2a27b6dca353027d0b646e5d5ef45ad594a67a7"
     end
     if Hardware::CPU.intel?
       url "https://github.com/bgreenwell/xleak/releases/download/v0.2.6/xleak-x86_64-apple-darwin.tar.xz"
-      sha256 "7e5a7574096a1c1ecf0d534657aed7e8e502934a5d6e306e82ddee2f17ced44e"
+      sha256 "2ac3200e9df1960409d50356ac78e35fbd0d4b67c6a2600e8a209d9c19878e52"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/bgreenwell/xleak/releases/download/v0.2.6/xleak-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1081569dfc53d121ee6aad4a8a52b6e96207a17c92aabe16414f87242efca94e"
+      sha256 "549e4f6d430a2fbc373ffb5492a2dad77db6071d26cf680e89082c46b6106c97"
     end
     if Hardware::CPU.intel?
       url "https://github.com/bgreenwell/xleak/releases/download/v0.2.6/xleak-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7b6c7084bcc69ff171dbd90841342271db9a4cc94f9f0a766f15251856926234"
+      sha256 "f3c7e4177dbec1639763c50b09ba41cf14ff7036f984d24db87658f4e7739437"
     end
   end
   license "MIT"
