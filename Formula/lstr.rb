@@ -1,25 +1,25 @@
 class Lstr < Formula
   desc "A blazingly fast, minimalist directory tree viewer, written in Rust."
   homepage "https://github.com/bgreenwell/lstr"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bgreenwell/lstr/releases/download/v0.3.0/lstr-aarch64-apple-darwin.tar.xz"
-      sha256 "2fa95b3670ab3346444025db0b9ed6d242513f7dc230452aa42be7b3565e7eb1"
+      url "https://github.com/bgreenwell/lstr/releases/download/v0.4.0/lstr-aarch64-apple-darwin.tar.xz"
+      sha256 "9d6fce9723c073c408ce038d7b74b3e4547cd60fbb37cd58bf5e8f1783be4f6c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bgreenwell/lstr/releases/download/v0.3.0/lstr-x86_64-apple-darwin.tar.xz"
-      sha256 "1389906b18644adebe9effd9c1fa76ab82a1919e55572afe4aec0581b49770ac"
+      url "https://github.com/bgreenwell/lstr/releases/download/v0.4.0/lstr-x86_64-apple-darwin.tar.xz"
+      sha256 "6bbf8ded91aef271cf63245fb8a65a1040164218211491d44cea2ecdf7e6280d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bgreenwell/lstr/releases/download/v0.3.0/lstr-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c047c5cf09a99d88bbb550749e71096dbb35f244b2c8a83cc4aa5c157376c27c"
+      url "https://github.com/bgreenwell/lstr/releases/download/v0.4.0/lstr-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2f35a1a49307739957128c459e797fcbf9a19d23dc7eaac0c09e828ef4e8b08d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bgreenwell/lstr/releases/download/v0.3.0/lstr-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c4dcd4d43ee2af773ab2d52d96e99b1ee5a4ca6ce403dc14d1c8c8adf09f6ae6"
+      url "https://github.com/bgreenwell/lstr/releases/download/v0.4.0/lstr-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "748b78f0c10996cfc3e0b6a49242d4e318313ff4e15b5ddf4bfa630b078bf898"
     end
   end
   license "MIT"
